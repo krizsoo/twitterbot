@@ -1,0 +1,22 @@
+{
+  "name": "twitter-bot",
+  "version": "1.0.0",
+  "description": "Node JS Twitter Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aerlingus Lover",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmorelli25/Twitter-Bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bmorelli25/Twitter-Bot/issues"
+  },
+  "homepage": "https://github.com/bmorelli25/Twitter-Bot#readme",
+  "dependencies": {
+    "twitter": "^1.7.1"
+  }
+}
