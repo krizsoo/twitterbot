@@ -10,13 +10,14 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bmorelli25/Twitter-Bot.git"
+    "url": "git+https://github.com/krizsoo/twitterbot.git"
   },
   "bugs": {
-    "url": "https://github.com/bmorelli25/Twitter-Bot/issues"
+    "url": "https://github.com/krizsoo/twitterbot/issues"
   },
-  "homepage": "https://github.com/bmorelli25/Twitter-Bot#readme",
+  "homepage": "https://github.com/krizsoo/twitterbot#readme",
   "dependencies": {
     "twitter": "^1.7.1"
-  }
+  },
+  "devDependencies": {}
 }
