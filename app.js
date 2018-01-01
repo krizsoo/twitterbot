@@ -11,7 +11,7 @@ var T = new Twitter(config);
 
 // Set up your search parameters
 var params = {
-  q: '@aerlingus',
+  q: '@freecodecamp',
   count: 1,
   result_type: 'recent',
   lang: 'en'
@@ -35,8 +35,8 @@ T.get('search/tweets', params, function(err, data, response) {
     // Loop through the returned tweets
     for(let i = 0; i < data.statuses.length; i++){
       
-      //Do not retweet Aerlinguslover
-      if (data.statuses[i].user.screen_name != 'Aerlinguslover')
+      //Do not retweet Own user --> replace your username
+      if (data.statuses[i].user.screen_name != 'MY USER NAME')
       {
           // Try to Favorite the selected Tweet
           T.post('statuses/update', { in_reply_to_status_id: data.statuses[0].id_str, status: '@' + data.statuses[0].user.screen_name + TWEETS_TO_REPLY[Math.floor(Math.random()*TWEETS_TO_REPLY.length)] }, function(err, response){
